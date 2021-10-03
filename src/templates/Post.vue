@@ -14,8 +14,8 @@
                             <span class="meta">
                                 Posted by
                                 <a href="#!">
-                                    {{ JSON.parse($page.post.create_by).astname }}
-                                    {{ JSON.parse($page.post.create_by).firstname }}
+                                    <!-- {{ JSON.parse($page.post.create_by).astname }}
+                                    {{ JSON.parse($page.post.create_by).firstname }} -->
                                     </a>
                                 {{ $page.post.created_at }}
                             </span>
